@@ -47,134 +47,194 @@ table {
 	border-spacing: 0;
 }
 
-/* Style */
+/* style */
 body {
-    font-size: 16px/28px;
-    font-family: arial, sans-serif;
     background-color: black;
-    background-image: url(interlaced.png);
-    color: white;
+
 }
 
 .container {
     width: 960px;
     margin: auto;
-    background-color: black;
-}
-    
-.home {
-    padding: 20px;
-    padding-bottom: 10px;
 }
 
-.home .judul {
-    font-size: 15px;
-    font-weight: bold;
+.nav {
+    width: 100%;
+    height: 50px;
+    box-sizing: border-box;
+    background-color: white;
+    padding-top: 14px;
+
 }
 
-.home ul li {
+.nav ul li {
     display: inline-block;
-
-    /* margin-right: 10px; */
     float: right;
+    margin-right: 35px;
 
 }
 
-.home a {
-    
+.nav a {
+    padding: 2px;
     text-decoration: none;
-    color: black;
-    padding: 6px;
+    color:black;
 }
 
-.home a:hover {
-    background-color: lightblue;
-    color: white;
+.nav h2 {
+    font-size: 18px;
+    margin-left: 35px;
 }
 
-.gambar {
-    height: 320px;
+.Home {
+    height: 350px;
     background-image: url(unsplash.png);
     background-size: cover;
     background-position: 0 -220px;
-    /* border-bottom: 5px solid lightskyblue;
-    border-top: 5px solid salmon; */
+    margin-top: 60px;
 }
 
-.haloo .pertama {
-    font-weight: bold;
+.paragraf {
     padding-top: 220px;
-    padding-left: 60px;
-    color: black;
+    padding-left: 50px;
 }
 
-.haloo .kedua {
+.paragraf .p-satu {
+    font-size: 20px;
+}
+
+.paragraf .p-dua {
     color: white;
     font-weight: bold;
-    padding-left: 60px;
+    font-size: 20px;
 }
 
+.paragraf .p-tiga {
+    font-size: 15px;
+}
 
-.haloo .ketiga {
-    font-size: 10px;
-    padding-left: 60px;
-    color: black;
+button {
+    margin-left: 50px;
+    margin-top: 15px;
+    padding: 3px;
 }
 
 .about {
-    border: 5px solid black;
-    margin-top: 80px;
+    height: 460px;
     background-color: white;
-    color: black;
-}
-
-.about .isi {
-    padding-left: 60px;
-    padding-top: 8px;
+    margin-top: 60px;
 }
 
 .about .judul {
-    padding-top: 50px;
-    padding-left: 30px;
-    font-size: 50px;
+    font-size: 60px;
+    font-weight: bold;
     color: grey;
+    padding-top: 30px;
+    padding-left: 30px;
 }
 
-/* .about .paragraf1 {
+.about .deskripsi {
     padding-left: 60px;
-    padding-top: 6px; */
-/* } */
+    padding-right: 60px;  
+    padding-top: 5px; 
+}
 
-.isi .judul1 {
+.isi {
+    padding-left: 60px;
+    padding-right: 60px;
+    text-align: justify;
+}
+
+.isi .judul-satu {
+    padding-top: 18px;
     font-weight: bold;
 }
 
-.isi .judul2 {
+.isi .satu button {
+    /* margin-left: 710px; */
+    position: absolute;
+}
+
+.isi .dua button {
+    /* margin-left: 710px; */
+    position: absolute;
+}
+
+.isi .tiga button {
+    /* margin-left: 710px; */
+    position: absolute;
+}
+
+.isi .isi-satu {
+    padding-top: 13px;
+}
+
+.isi .judul-dua {
+    padding-top: 18px;
     font-weight: bold;
 }
 
-.isi .judul3 {
+.isi .isi-dua {
+    padding-top: 13px;
+}
+
+.isi .judul-tiga {
+    padding-top: 18px;
     font-weight: bold;
+}
+
+.isi .isi-tiga {
+    padding-top: 13px;
 }
 
 .work {
-    border: 5px solid black;
-    margin-top: 100px;
+    height: 420px;
     background-color: white;
-    color: black;
+    margin-top: 60px;
 }
 
-.work .judul4 {
-    padding-top: 50px;
-    padding-left: 30px;
-    font-size: 50px;
+.main {
+    width: 500px;
+    padding: 20px;
+    box-sizing: border-box;
+    float: left;
+    text-align: justify;
+    
+}
+
+.work .judul {
+    font-size: 60px;
+    font-weight: bold;
     color: grey;
+    padding-top: 30px;
+    padding-left: 30px;
 }
 
-.work .paragraf4 {
+.work p {
+    padding-top: 80px;
     padding-left: 60px;
-    padding-top: 100px;
-    padding-bottom: 100px;
-    padding-right: 450px;
-    position: auto;
+    
 }
+
+.sidebar .editor {
+    margin-left: 60px;
+    float: left;
+    margin-top: 100px;
+}
+
+.sidebar .edu {
+    margin-right: 60px;
+    float: right;
+    margin-top: 100px;
+}
+
+.sidebar .teacher {
+    margin-left: 160px;
+}
+
+
+
+
+
+
+
+
