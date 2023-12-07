@@ -76,9 +76,7 @@ table {
 
 /* style */
 body {
-    background-color: black;
-    
-
+    overflow-x: hidden;
 }
 
 .container {
@@ -89,48 +87,49 @@ body {
     
 }
 
-.nav {
+nav {
     width: 100%;
-    height: 60px;
-    box-sizing: border-box;
-    background-color: grey;
-    padding-top: 14px;
-    position: fixed;
-    border-bottom: 2px solid #101111;
-    /* box-shadow: 0 0px 2.2px rgba(0, 0, 0, 0.028), 0 0px 5.3px rgba(0, 0, 0, 0.04), 0 0px 10px rgba(0, 0, 0, 0.05); */
-}
-
-.nav .firstName {
-    font-size: 25px;
-    margin-left: 35px;
-    margin-top: 5px;
-    font-weight: bold;
-}
-
-.nav ul li {
-    display: inline-block;
-    float: right;
-    margin-right: 35px;
-}
-
-.nav a {
-    text-decoration: none;
-    color:black;
-    padding: 2px;
-}
-
-.nav a:hover {
-    background-color: rgb(18, 18, 19);
+    display: flex;
+    background-color: black;
+    justify-content: space-between; 
+    padding: 20px 0;
     color: white;
+    position: fixed;
+    box-sizing: border-box;
+}
+  
+nav .logo {
+    margin-left: 80px;
+    font-size: 20px;
+}
+  
+nav ul {
+    display: flex;
+    list-style: none;
+    width: 20%;
+    justify-content: space-between;
+    margin-right: 90px;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1em; 
+}
+  
+nav ul li a:hover {
+    color: grey;
+    background-color: white;
+    border-radius: 0.8px;
+    padding: 6px;
 }
 
 
 .Home {
-    height: 600px;
+    height: 680px;
     background-image: url(hilma.png);
     background-size: cover;
-    background-position: 0 -70px;
-    margin-top: 60px;
+    background-position: 0 -50px;
+    /* margin-top: 60px; */
 }
 
 .paragraf {
@@ -169,19 +168,19 @@ button {
     font-size: 60px;
     font-weight: bold;
     color: grey;
-    padding-top: 50px;
+    padding-top: 100px;
     padding-left: 30px;
 }
 
 .about .deskripsi {
-    padding-left: 60px;
+    padding-left: 86px;
     padding-right: 90px;  
     padding-top: 30px; 
     text-align: justify;
 }
 
 .isi {
-    padding-left: 60px;
+    padding-left: 86px;
     padding-right: 90px;
     text-align: justify;
 }
@@ -229,6 +228,7 @@ button {
 }
 
 .work {
+    padding-top: 100px;
     height: 545px;
     background-color: white;
     /* margin-top: 60px; */
@@ -277,6 +277,7 @@ button {
 }
 
 .contact {
+    padding-top: 100px;
     height: 700px;
     background-color: white;
     /* margin-top: 60px; */
@@ -326,7 +327,7 @@ button {
 }
 
 .judul-contact {
-    background: #386298;
+    background: grey;
     letter-spacing: 0.1rem;
     padding: 1rem;
     cursor: default;
@@ -363,7 +364,7 @@ button {
 }
 
 .submit {
-    background: #386298;
+    background: grey;
     color: #ffffff;
     font-weight: bold;
     margin-top: 1rem;
@@ -374,7 +375,7 @@ button {
 }
 
 .submit:hover {
-    background: rgb(148, 156, 218);
+    background: rgb(174, 175, 184);
     color: black;
 }
 
