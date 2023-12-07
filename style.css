@@ -156,6 +156,12 @@ button {
     margin-left: 50px;
     margin-top: 15px;
     padding: 3px;
+    background-color: grey;
+    border-color: white;
+    color: white;
+    border-radius: 0.8em;
+    padding: 6px 8px;
+    cursor: pointer;
 }
 
 .about {
@@ -193,20 +199,33 @@ button {
 .isi .satu button {
     /* margin-left: 710px; */
     float: right;
+    background-color: black;
+    color: #ffffff;
+    border-radius: 0.8em;
+    padding: 6px 5px;
 }
 
 .isi .dua button {
     /* margin-left: 710px; */
     float: right;
+    background-color: black;
+    color: #ffffff;
+    border-radius: 0.8em;
+    padding: 6px 5px;
 }
 
 .isi .tiga button {
     /* margin-left: 710px; */
     float: right;
+    background-color: black;
+    color: #ffffff;
+    border-radius: 0.8em;
+    padding: 6px 5px;
 }
 
 .isi .isi-satu {
     padding-top: 13px;
+    display: none;
 }
 
 .isi .judul-dua {
@@ -216,6 +235,7 @@ button {
 
 .isi .isi-dua {
     padding-top: 13px;
+    display: none;
 }
 
 .isi .judul-tiga {
@@ -225,6 +245,7 @@ button {
 
 .isi .isi-tiga {
     padding-top: 13px;
+    display: none;
 }
 
 .work {
@@ -327,7 +348,7 @@ button {
 }
 
 .judul-contact {
-    background: grey;
+    background: black;
     letter-spacing: 0.1rem;
     padding: 1rem;
     cursor: default;
@@ -364,14 +385,15 @@ button {
 }
 
 .submit {
-    background: grey;
+    background: black;
     color: #ffffff;
     font-weight: bold;
-    margin-top: 1rem;
-    padding: 1rem 1.5rem;
+    /* margin-top: 1rem; */
+    padding: 0.8rem; 
     /* border: none; */
     cursor: pointer;
     margin-left: 0;
+    font-size: 16px;
 }
 
 .submit:hover {
