@@ -84,7 +84,6 @@ body {
     margin: auto;
     box-sizing: border-box;
     position: relative;
-    
 }
 
 nav {
@@ -96,11 +95,26 @@ nav {
     color: white;
     position: fixed;
     box-sizing: border-box;
+
+    border-bottom: 2px solid #f2f4f4; /* Warna border utama */
+  
+    /* Menambahkan gradasi pada border */
+    border-image: linear-gradient(to right, #636383, #d3d0d0, #636383) 1;
+    border-image-slice: 1;
+  
+    /* Menambahkan bayangan */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    /* border-bottom: 0px solid #eceeef; Warna border */
+    /* box-shadow: 0 0 10px rgba(228, 216, 216, 0.998); Bayangan dengan warna dan opasitas */
+
+    /* border-bottom: 2px solid;
+    border-image: linear-gradient(to right, #eae3e3, #333733) 1; */
 }
   
 nav .logo {
     margin-left: 80px;
     font-size: 20px;
+    font-weight: bold;
 }
   
 nav ul {
@@ -126,15 +140,16 @@ nav ul li a:hover {
 
 .Home {
     height: 680px;
-    background-image: url(hilma.png);
+    background-image: url(hilmaku1.png);
     background-size: cover;
-    background-position: 0 -50px;
+    background-position: 0 -271px;
     /* margin-top: 60px; */
 }
 
 .paragraf {
     padding-top: 220px;
     padding-left: 50px;
+    color: #ffffff;
 }
 
 .paragraf .p-satu {
@@ -143,7 +158,6 @@ nav ul li a:hover {
 }
 
 .paragraf .p-dua {
-    color: black;
     font-weight: bold;
     font-size: 60px;
 }
@@ -156,18 +170,25 @@ button {
     margin-left: 50px;
     margin-top: 15px;
     padding: 3px;
-    background-color: grey;
+    background-color: black;
     border-color: white;
     color: white;
     border-radius: 0.8em;
     padding: 6px 8px;
     cursor: pointer;
+    position: relative;
 }
 
 .about {
-    height: 600px;
+    height: 700px;
     background-color: white;
     /* margin-top: 60px; */
+    background-image: url(saturnus.png);
+    background-size: cover;
+    background-position: 0 -20px;
+    color: white;
+   
+
 }
 
 .about .judul {
@@ -250,9 +271,14 @@ button {
 
 .work {
     padding-top: 100px;
-    height: 545px;
+    height: 700px;
     background-color: white;
     /* margin-top: 60px; */
+    box-sizing: border-box;
+    background-image: url(saturn-.png);
+    background-size: cover;
+    /* background-position: 0 -20px; */
+    display: flex;
     box-sizing: border-box;
 }
 
@@ -276,33 +302,44 @@ button {
 .work p {
     padding-top: 80px;
     padding-left: 60px;
+    color: rgb(247, 247, 247);
     
 }
 
-.sidebar .editor {
-    margin-left: 30px;
+.sidebar {
+    margin-left: 50px;
+    margin-top: 100px;
+    height: 300px;
+    background-color: black;
+}
+
+.sidebar .ensiklo {
+    margin-left: 20px;
     float: left;
-    margin-top: 150px;
+    margin-top: 40px; 
 }
 
-.sidebar .edu {
-    
+.sidebar .tata {
     float: right;
-    margin-top: 70px;
-    margin-bottom: 30px;
-    margin-right: 75px;
+    margin-top: 40px;
+    margin-left: 15px;
+    margin-right: 20px;
 }
 
-.sidebar .teacher {
-    margin-left: 160px;
+.sidebar .ipa {
+    margin-left: 15px;
+    margin-top: 40px;
 }
 
 .contact {
     padding-top: 100px;
-    height: 700px;
+    height: 800px;
     background-color: white;
     /* margin-top: 60px; */
     box-sizing: border-box;
+    background-image: url(wolf-697736_960_720.png);
+    background-size: cover;
+    color: #ffffff;
 }
 
 .contact .judul {
@@ -320,13 +357,12 @@ button {
     text-align: justify;
     padding-top: 80px;
     padding-left: 60px;
-    box-sizing: border-box
 }
 
 .kanan {
     width: 600px;
     float: right;
-    display: flex;
+    /* display: flex; */
     flex-direction: column;
     /* text-align: center; */
     justify-content: center;
@@ -368,6 +404,7 @@ button {
 .form-group label {
     display: block;
     margin: 1rem 0 0.2rem 0;
+    color: black;
 }
 
 .form-group input[type="text"],
