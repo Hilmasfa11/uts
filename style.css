@@ -104,11 +104,6 @@ nav {
   
     /* Menambahkan bayangan */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-    /* border-bottom: 0px solid #eceeef; Warna border */
-    /* box-shadow: 0 0 10px rgba(228, 216, 216, 0.998); Bayangan dengan warna dan opasitas */
-
-    /* border-bottom: 2px solid;
-    border-image: linear-gradient(to right, #eae3e3, #333733) 1; */
 }
   
 nav .logo {
@@ -124,6 +119,7 @@ nav ul {
     justify-content: space-between;
     margin-right: 90px;
 }
+
 nav ul li a {
     color: white;
     text-decoration: none;
@@ -137,13 +133,11 @@ nav ul li a:hover {
     padding: 6px;
 }
 
-
 .Home {
     height: 680px;
     background-image: url(hilmaku1.png);
     background-size: cover;
     background-position: 0 -271px;
-    /* margin-top: 60px; */
 }
 
 .paragraf {
@@ -154,7 +148,6 @@ nav ul li a:hover {
 
 .paragraf .p-satu {
     font-size: 40px;
-    
 }
 
 .paragraf .p-dua {
@@ -182,13 +175,10 @@ button {
 .about {
     height: 700px;
     background-color: white;
-    /* margin-top: 60px; */
     background-image: url(saturnus.png);
     background-size: cover;
     background-position: 0 -20px;
     color: white;
-   
-
 }
 
 .about .judul {
@@ -218,7 +208,6 @@ button {
 }
 
 .isi .satu button {
-    /* margin-left: 710px; */
     float: right;
     background-color: black;
     color: #ffffff;
@@ -227,7 +216,6 @@ button {
 }
 
 .isi .dua button {
-    /* margin-left: 710px; */
     float: right;
     background-color: black;
     color: #ffffff;
@@ -236,7 +224,6 @@ button {
 }
 
 .isi .tiga button {
-    /* margin-left: 710px; */
     float: right;
     background-color: black;
     color: #ffffff;
@@ -273,11 +260,9 @@ button {
     padding-top: 100px;
     height: 700px;
     background-color: white;
-    /* margin-top: 60px; */
     box-sizing: border-box;
     background-image: url(saturn-.png);
     background-size: cover;
-    /* background-position: 0 -20px; */
     display: flex;
     box-sizing: border-box;
 }
@@ -288,7 +273,6 @@ button {
     box-sizing: border-box;
     float: left;
     text-align: justify;
-    
 }
 
 .work .judul {
@@ -303,7 +287,6 @@ button {
     padding-top: 80px;
     padding-left: 60px;
     color: rgb(247, 247, 247);
-    
 }
 
 .sidebar {
@@ -335,7 +318,6 @@ button {
     padding-top: 100px;
     height: 800px;
     background-color: white;
-    /* margin-top: 60px; */
     box-sizing: border-box;
     background-image: url(wolf-697736_960_720.png);
     background-size: cover;
@@ -362,16 +344,12 @@ button {
 .kanan {
     width: 600px;
     float: right;
-    /* display: flex; */
     flex-direction: column;
-    /* text-align: center; */
     justify-content: center;
     /* untuk mengatur kotak contact us */
     line-height: 1.5;
     padding-right: 80px;
     box-sizing: border-box;
-    
-    
 }
 
 .contactUs {
@@ -389,9 +367,6 @@ button {
     padding: 1rem;
     cursor: default;
     color: #ffffff;
-    
-    
-
 }
 
 form,
@@ -425,9 +400,7 @@ button {
     background: black;
     color: #ffffff;
     font-weight: bold;
-    /* margin-top: 1rem; */
     padding: 0.8rem; 
-    /* border: none; */
     cursor: pointer;
     margin-left: 0;
     font-size: 16px;
